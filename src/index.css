@@ -61,8 +61,26 @@ nav {
 }
 
 .nav-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-size: 0.875rem;
-  color: #999;
+  color: #333;
+}
+
+.nav-username {
+  font-weight: 600;
+}
+
+.nav-login-link {
+  color: #1976d2;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-logout {
+  padding: 6px 14px;
+  font-size: 0.875rem;
 }
 
 /* Main Content */
